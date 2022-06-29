@@ -48,7 +48,7 @@ margin-top: 200px;
         margin-top: 40px;
     }
     .rodape{
-        margin-top: 50%;
+        margin-top: 100%;
         padding: 45px;
         background-color: #393939;
         text-align: center;
@@ -110,10 +110,6 @@ margin-top: 200px;
         .conteudo{
             width: 100%;
         }
-        .conteudo-principal-escrito-subtitulo{
-            font-size: 18px;
-            width: 80%;
-        }
         .rightcolumn{
             display: none;
         }
@@ -123,6 +119,19 @@ margin-top: 200px;
             z-index: 99;
             width:100%;
             margin-top: 200%;
+        }
+        .conteudo-principal{
+            margin-left: 15%;
+        }
+        .rightcolumn{
+        width: 33%;
+        }
+    }
+    @media screen and (max-width: 886px){
+        .rodape{
+            z-index: 99;
+            width:100%;
+            margin-top: 400%;
         }
         .conteudo-principal{
             margin-left: 15%;

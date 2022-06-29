@@ -39,8 +39,10 @@ margin-right: 25%;
 }
 .conteudo-principal-escrito-titulo{
     margin-top: 10%;
-    font-size: 32px;
+    font-size: 22px;
+    width: 400px;
     color: black;
+    
 }
 .conteudo-principal-escrito-titulo:hover{
     color: blue;
@@ -74,15 +76,16 @@ margin-right: 25%;
 }
 .conteudo-segundo{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10%;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+align-items: center;
+margin-top: 10%;
 }
 .conteudo-segundo-escrito-titulo{
     margin-top: 10%;
-    font-size: 32px;
+    margin-left: 5%;
+    font-size: 22px;
     color: black;
 }
 .conteudo-segundo-escrito-titulo:hover{
@@ -94,26 +97,27 @@ margin-right: 25%;
         font-size: 14px;
         height: 50px;
         width: 400px;
+        margin-left: 5%;
         margin-top: 40px;
 }
 .conteudo-segundo-escrito-botao{
     color: black;
     background-color: blue;
+    margin-left: 25%;
     width: 180px;
     height: 60px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .conteudo-segundo-escrito-botao:hover{
     background-color: aqua;
 }
 .conteudo-segundo-img{
-    width: 500px;
-    margin-left: 104px;
-    margin-right: 32px;
+    width: 600px;
     border-radius: 3%;
+    margin-left: 150px;
 }
 .conteudo-terceiro{
     display: flex;
@@ -121,11 +125,11 @@ margin-right: 25%;
     align-items: center;
     justify-content: space-around;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .conteudo-terceiro-escrito-titulo{
     margin-top: 10%;
-    font-size: 32px;
+    font-size: 22px;
     color: black;
     width: 400px;
 }
@@ -149,6 +153,7 @@ margin-right: 25%;
     border-radius: 20px;
     cursor: pointer;
     margin-top: 100px;
+    margin-left: 20%;
 }
 .conteudo-terceiro-escrito-botao:hover{
     background-color: aqua;
@@ -159,51 +164,6 @@ margin-right: 25%;
     margin-left: 104px;
     margin-right: 32px;
     border-radius: 5%;
-}
-
-.conteudo-quarto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10%;
-}
-.conteudo-quarto-escrito-titulo{
-    margin-top: 10%;
-    font-size: 32px;
-    color: black;
-    width: 400px;
-}
-.conteudo-quarto-escrito-titulo:hover{
-    color: blue;
-}
-.conteudo-quarto-escrito-subtitulo{
-    font-family: 'Lato', sans-serif;
-        font-weight: 110px;
-        font-size: 14px;
-        height: 50px;
-        width: 400px;
-        margin-top: 40px;
-}
-.conteudo-quarto-escrito-botao{
-    color: black;
-    background-color: blue;
-    width: 180px;
-    height: 60px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-top: 50px;
-}
-.conteudo-quarto-escrito-botao:hover{
-    background-color: aqua;
-}
-.conteudo-quarto-img{
-    width: 500px;
-    margin-left: 80px;
-    margin-right: 32px;
-    border-radius: 3%;
 }
 
 .rodape{
@@ -260,11 +220,16 @@ margin-right: 25%;
         margin-right: 30%;
         height: 200px;
     }
+    .conteudo-terceiro-escrito-botao{
+        margin-left: 5%;
+    }
     .conteudo-terceiro-escrito-subtitulo{
         width: 90%;
+        margin-left: 5%;
     }
 .conteudo-terceiro-escrito-titulo{
     width: 90%;
+    margin-left: 5%;
 }
 .conteudo-principal{
     width: 100%;
@@ -272,15 +237,14 @@ margin-right: 25%;
 .conteudo-quarto{
     width: 100%;
 }
-.conteudo-quarto-escrito-subtitulo{
-    width: 90%;
+.conteudo-segundo-escrito-titulo{
+    margin-left: 15%;
 }
-.conteudo-quarto-img{
-    width: 80%;
-    margin-left: 10%;
+.conteudo-segundo-escrito-subtitulo{
+    margin-left: 15%;
 }
-.conteudo-quarto-escrito-titulo{
-    width: 80%;
+.conteudo-segundo-escrito-botao{
+    margin-left: 15%;
 }
 }
 
@@ -316,7 +280,7 @@ margin-right: 25%;
     }
     .conteudo-principal-escrito-subtitulo{
         font-size: 14px;
-        width: 80%;
+        width: 100%;
     }
     .conteudo-principal-escrito-botao{
         margin-top: 35%;
